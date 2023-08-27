@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.crud.HomeController">
+   <children>
+      <Button layoutX="270.0" layoutY="68.0" mnemonicParsing="false" onAction="#openUpdate" text="Update" />
+      <Button layoutX="274.0" layoutY="187.0" mnemonicParsing="false" onAction="#openDelete" text="Delete" />
+      <Button layoutX="273.0" layoutY="303.0" mnemonicParsing="false" onAction="#openCreate" text="Create" />
+   </children>
+</AnchorPane>
